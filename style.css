@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background-image: url("unsplash-img.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    width: 100%;
+  }
+
+#cabecalho {
+    background-color: rgb(171, 165, 204);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+#titulo {
+    text-align: center;
+    padding: 0.8rem;
+    color: white;
+}
+
+.conteudo {
+    margin-top: 100px;
+}
+
+.parte_superior {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+#minha_foto {
+    width: 250px;
+    border-radius: 20px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+h3,
+article {
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#licoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+.artigos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lado-direito,
+.lado-esquerdo {
+    border: 2px solid rgb(171, 165, 204);
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 400px;
+    min-height: 215px;
+    text-align: justify;
+}
+
+#icon {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-evenly;
+
+}
+
+.html-icon,
+.css-icon,
+.js-icon {
+    display: inline;
+    width: 100px;
+}
+
+footer {
+    background-color: rgb(171, 165, 204);
+    color: white;
+    padding: 10px 32px;
+    margin-top: 0.8rem;
+    font-size: 14px;
+    line-height: 25px;
+}
